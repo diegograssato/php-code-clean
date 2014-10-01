@@ -1,0 +1,13 @@
+{
+    "name": "diegograssato/php-code-clean",
+    "description": "Extensions for PHPStorm http://sergigp.com/phpstorm-integrando-herramientas-de-calidad-de-codigo, http://blog.jetbrains.com/phpstorm/2014/07/, http://confluence.jetbrains.com/display/PhpStorm/PHP+Code+Sniffer+in+PhpStorm#PHPCodeSnifferinPhpStorm-InstallingviaComposer",
+    "require": {
+        "squizlabs/php_codesniffer": "@stable",
+        "fabpot/php-cs-fixer": "@stable",
+        "phpmd/phpmd" : "@stable",
+        "phpunit/phpunit": "@stable"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
